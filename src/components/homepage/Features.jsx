@@ -1,4 +1,3 @@
-import feature1 from "../../assets//image.png";
 import { Link } from "react-router-dom";
 import configuration from "../../Configurations.json";
 
