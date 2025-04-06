@@ -5,7 +5,7 @@ import Pricing from "./components/homepage/Pricing";
 import Features from "./components/homepage/Features";
 import Testimonials from "./components/homepage/Testimonials";
 import "./App.css";
-import AuthPage from "./components/auth/LogIn";
+import AuthPage from "./components/common/LogIn";
 import AboutPage from "./pages/AboutUs";
 
 function App() {
