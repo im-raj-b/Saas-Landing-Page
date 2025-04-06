@@ -10,8 +10,6 @@ import AuthPage from "./components/auth/LogIn";
 import AboutPage from "./pages/AboutUs";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <Router>
