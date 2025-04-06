@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "Smart Banking for Professionals",
+    "subtitle": "We help you manage your finances, track expenses, and save smarter.",
+    "buttonText": "Get Started"
+  },
+  "features": {
+    "title": "Our Features You Can Get",
+    "list": [
+      "Saving Money For The Future",
+      "Online Banking",
+      "Investment Report Every Month",
+      "Saving Money For The Future",
+      "Online Transaction"
+    ]
+  },
+  "benefits": {
+    "title": "What Benefit Will You Get",
+    "list": [
+      "Free Consulting With Expert Saving Money",
+      "Online Banking",
+      "Investment Report Every Month",
+      "Saving Money For The Future",
+      "Online Transaction"
+    ]
+  },
+  "pricing": {
+    "title": "Choose Plan That’s Right For You",
+    "subtitle": "Choose plan that works best for you, feel free to contact us",
+    "plans": {
+      "monthly": [{ "free": "" }]
+    }
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Real feedback from our happy clients"
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "subtitle": "Take control of your finances today",
+    "buttonText": "Join Now"
+  }
+}

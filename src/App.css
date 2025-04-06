@@ -1,0 +1,63 @@
+/* Add these styles to improve responsiveness */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Ensure images don't overflow their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve form elements on mobile */
+input,
+textarea,
+button {
+  font-size: 16px; /* Prevents iOS zoom on focus */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+/* Fix input appearance on iOS */
+input[type="text"],
+input[type="email"],
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Ensure proper spacing on mobile */
+.py-16 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* Fix overflow issues */
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+/* Improve touch targets on mobile */
+button,
+a {
+  touch-action: manipulation;
+}
+
+/* Fix mobile viewport issues */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
