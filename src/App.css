@@ -37,12 +37,12 @@ textarea {
   padding-bottom: 3rem;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-}
+} */
 
 /* Fix overflow issues */
 .overflow-x-hidden {

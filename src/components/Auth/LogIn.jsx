@@ -8,19 +8,6 @@ const AuthPage = () => {
 
   return (
     <div className="min-h-screen bg-[#e8f5f0] flex flex-col">
-      {/* Header */}
-      <header className="w-full px-4 py-6">
-        <div className="max-w-7xl mx-auto flex items-center">
-          <a
-            href="/"
-            className="flex items-center text-gray-700 hover:text-black"
-          >
-            {/* <ArrowLeft className="h-5 w-5 mr-2" /> */}
-            <span>Back to home</span>
-          </a>
-        </div>
-      </header>
-
       {/* Main Content */}
       <main className="flex-1 flex items-center justify-center px-4 py-8">
         <div className="w-full max-w-md">
@@ -103,9 +90,7 @@ const AuthPage = () => {
                       type="button"
                       className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"
                       onClick={() => setShowPassword(!showPassword)}
-                    >
-                      {/* {showPassword ? <EyeOff size={18} /> : <Eye size={18} />} */}
-                    </button>
+                    ></button>
                   </div>
                 </div>
 
@@ -150,14 +135,12 @@ const AuthPage = () => {
                     type="button"
                     className="flex items-center justify-center py-2.5 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
                   >
-                    {/* <Github size={18} className="mr-2" /> */}
                     <span>Github</span>
                   </button>
                   <button
                     type="button"
                     className="flex items-center justify-center py-2.5 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
                   >
-                    {/* <Twitter size={18} className="mr-2" /> */}
                     <span>Twitter</span>
                   </button>
                 </div>
@@ -231,9 +214,7 @@ const AuthPage = () => {
                       type="button"
                       className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"
                       onClick={() => setShowPassword(!showPassword)}
-                    >
-                      {/* {showPassword ? <EyeOff size={18} /> : <Eye size={18} />} */}
-                    </button>
+                    ></button>
                   </div>
                   <p className="mt-1 text-xs text-gray-500">
                     Password must be at least 8 characters long
@@ -260,13 +241,7 @@ const AuthPage = () => {
                       onClick={() =>
                         setShowConfirmPassword(!showConfirmPassword)
                       }
-                    >
-                      {/* {showConfirmPassword ? (
-                        <EyeOff size={18} />
-                      ) : (
-                        <Eye size={18} />
-                      )} */}
-                    </button>
+                    ></button>
                   </div>
                 </div>
 
@@ -313,14 +288,12 @@ const AuthPage = () => {
                     type="button"
                     className="flex items-center justify-center py-2.5 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
                   >
-                    {/* <Github size={18} className="mr-2" /> */}
                     <span>Github</span>
                   </button>
                   <button
                     type="button"
                     className="flex items-center justify-center py-2.5 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
                   >
-                    {/* <Twitter size={18} className="mr-2" /> */}
                     <span>Twitter</span>
                   </button>
                 </div>
@@ -357,7 +330,7 @@ const AuthPage = () => {
 
       {/* Footer */}
       <footer className="w-full px-4 py-6 text-center text-gray-600 text-sm">
-        <p>© 2022 Biccas Inc. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Biccas Inc. All rights reserved.</p>
       </footer>
     </div>
   );

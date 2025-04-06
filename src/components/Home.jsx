@@ -1,10 +1,10 @@
 import React from "react";
-import Testimonials from "./Testimonials";
-import HeroSection from "./HeroSection";
-import Support from "./Support";
-import Features from "./Features";
-import Benifits from "./Benifits";
-import Pricing from "./Pricing";
+import Testimonials from "./homepage/Testimonials";
+import HeroSection from "./homepage/HeroSection";
+import Support from "./homepage/Support";
+import Features from "./homepage/Features";
+import Benifits from "./homepage/Benifits";
+import Pricing from "./homepage/Pricing";
 
 export default function Home() {
   return (

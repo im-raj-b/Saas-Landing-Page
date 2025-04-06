@@ -1,17 +1,42 @@
 {
   "hero": {
     "title": "Smart Banking for Professionals",
-    "subtitle": "We help you manage your finances, track expenses, and save smarter.",
+    "subtitle": "Let's make your work more organize and easily using the Taskio Dashboard with many of the latest features in managing work every day.",
     "buttonText": "Get Started"
+  },
+  "support": {
+    "subtitle": "SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software",
+    "categories": [
+      {
+        "title": "Publishing",
+        "subtitle": "Plan, collaborate, and publishing your content that drivesmeaningful engagement and growth for your brand"
+      },
+      {
+        "title": "Analytics",
+        "subtitle": "Analyze your performance and create gorgeous report"
+      },
+      {
+        "title": "Engagement",
+        "subtitle": "Quickly navigate you and engage with your audience"
+      }
+    ]
   },
   "features": {
     "title": "Our Features You Can Get",
+    "subtitle": "We offer a variety of interesting features that can help increase your productivity at work and manage your project easily.",
     "list": [
-      "Saving Money For The Future",
-      "Online Banking",
-      "Investment Report Every Month",
-      "Saving Money For The Future",
-      "Online Transaction"
+      {
+        "title": "Collaboration Teams",
+        "subtitle": "Here you can handle projects together with your team virtually."
+      },
+      {
+        "title": "Cloud Storage",
+        "subtitle": "No need to worry about storage because we provide up to 2 TB of cloud storage."
+      },
+      {
+        "title": "Daily Analytics",
+        "subtitle": "We always provide useful information to make your work easier every day."
+      }
     ]
   },
   "benefits": {
@@ -26,18 +51,10 @@
   },
   "pricing": {
     "title": "Choose Plan That’s Right For You",
-    "subtitle": "Choose plan that works best for you, feel free to contact us",
-    "plans": {
-      "monthly": [{ "free": "" }]
-    }
+    "subtitle": "Choose plan that works best for you, feel free to contact us"
   },
   "testimonials": {
     "title": "What Our Customers Say",
     "subtitle": "Real feedback from our happy clients"
-  },
-  "cta": {
-    "title": "Ready to Get Started?",
-    "subtitle": "Take control of your finances today",
-    "buttonText": "Join Now"
   }
 }

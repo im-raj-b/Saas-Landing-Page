@@ -2,11 +2,12 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./layouts/Layout";
 import Home from "./components/Home";
-import Pricing from "./components/Pricing";
-import Features from "./components/Features";
-import Testimonials from "./components/Testimonials";
+import Pricing from "./components/homepage/Pricing";
+import Features from "./components/homepage/Features";
+import Testimonials from "./components/homepage/Testimonials";
 import "./App.css";
-import AuthPage from "./components/Auth/LogIn";
+import AuthPage from "./components/auth/LogIn";
+import AboutPage from "./pages/AboutUs";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
             <Route path="features" element={<Features />} />
             <Route path="testimonials" element={<Testimonials />} />
             <Route path="login" element={<AuthPage />} />
+            <Route path="about" element={<AboutPage />} />
           </Route>
         </Routes>
       </Router>
