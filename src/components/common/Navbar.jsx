@@ -40,11 +40,11 @@ export default function Navbar() {
             </Link>
           </nav>
           <div className="hidden md:flex items-center space-x-4">
-            <Link to="/auth" className="text-gray-700 hover:text-black">
+            <Link to="/login" className="text-gray-700 hover:text-black">
               Login
             </Link>
             <Link
-              to="/auth"
+              to="/login"
               className="bg-[#4CAF82] text-white px-4 py-2 rounded-md hover:bg-[#3d9c6c]"
             >
               Sign Up
