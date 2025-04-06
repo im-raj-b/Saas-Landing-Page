@@ -127,12 +127,12 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
             {/* Brand and Newsletter */}
             <div className="md:col-span-1">
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="text-3xl font-bold text-[#4CAF82] mb-4 inline-block"
               >
                 Biccas
-              </a>
+              </Link>
               <p className="text-gray-400 mb-4">
                 Get started now try our product
               </p>
@@ -168,24 +168,24 @@ export default function Footer() {
               <h4 className="text-lg font-bold mb-4">Support</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Help centre
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Account information
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Contact us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -195,24 +195,24 @@ export default function Footer() {
               <h4 className="text-lg font-bold mb-4">Help and Solution</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Talk to support
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Support docs
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     System status
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Covid response
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -222,24 +222,24 @@ export default function Footer() {
               <h4 className="text-lg font-bold mb-4">Product</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Update
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Security
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Beta test
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white">
+                  <Link to="/" className="text-gray-400 hover:text-white">
                     Pricing product
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -252,13 +252,13 @@ export default function Footer() {
               reserved
             </div>
             <div className="text-gray-400">
-              <a href="#" className="hover:text-white">
+              <Link to="/" className="hover:text-white">
                 Terms and Conditions
-              </a>
+              </Link>
               <span className="mx-2">•</span>
-              <a href="#" className="hover:text-white">
+              <Link to="/" className="hover:text-white">
                 Privacy Policy
-              </a>
+              </Link>
             </div>
           </div>
         </div>

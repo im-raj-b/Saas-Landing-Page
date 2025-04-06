@@ -108,12 +108,12 @@ const AuthPage = () => {
                       Remember me
                     </label>
                   </div>
-                  <a
-                    href="/forgot-password"
+                  <Link
+                    to="/"
                     className="text-sm text-[#4CAF82] hover:underline"
                   >
                     Forgot password?
-                  </a>
+                  </Link>
                 </div>
 
                 <button
@@ -256,16 +256,19 @@ const AuthPage = () => {
                     className="ml-2 block text-sm text-gray-700"
                   >
                     I agree to the{" "}
-                    <a href="/terms" className="text-[#4CAF82] hover:underline">
+                    <Link
+                      to="/terms"
+                      className="text-[#4CAF82] hover:underline"
+                    >
                       Terms of Service
-                    </a>{" "}
+                    </Link>{" "}
                     and{" "}
-                    <a
-                      href="/privacy"
+                    <Link
+                      to="/privacy"
                       className="text-[#4CAF82] hover:underline"
                     >
                       Privacy Policy
-                    </a>
+                    </Link>
                   </label>
                 </div>
 
