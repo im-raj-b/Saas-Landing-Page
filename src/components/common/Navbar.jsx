@@ -125,7 +125,7 @@ export default function Navbar() {
                   Login
                 </button>
                 <button
-                  onClick={() => handleMobileNavigation("/auth")}
+                  onClick={() => handleMobileNavigation("/login")}
                   className="bg-[#4CAF82] text-white px-6 py-3 rounded-full hover:bg-[#3d9c6c] text-center text-lg"
                 >
                   Sign Up
