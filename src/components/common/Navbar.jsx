@@ -18,7 +18,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link
             to="/"
-            className="text-2xl sm:text-3xl font-bold text-[#4CAF82] z-20"
+            className="text-2xl sm:text-3xl font-bold text-green-700 z-20"
           >
             Biccas
           </Link>

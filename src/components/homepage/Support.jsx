@@ -38,7 +38,7 @@ export default function Support() {
               return (
                 <div className="flex gap-4 items-start" key={index}>
                   <div className="bg-green-100 p-3 rounded-lg">
-                    <Icon className="h-6 w-6 text-[#4CAF82]" />
+                    <Icon className="h-6 w-6 text-green-700" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">

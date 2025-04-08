@@ -107,7 +107,7 @@ function PlansSection({ plan }) {
           </div>
         </div>
 
-        <button className="w-full border border-[#4CAF82] text-[#4CAF82] py-3 rounded-full hover:bg-gray-50">
+        <button className="w-full border border-[#4CAF82] text-green-700 py-3 rounded-full hover:bg-gray-50">
           Sign up for free
         </button>
       </div>
@@ -125,37 +125,37 @@ function PlansSection({ plan }) {
         <div className="space-y-4 mb-8">
           <div className="flex items-start gap-3">
             <div className="mt-1 bg-white p-1 rounded-full">
-              <CheckIcon className="h-4 w-4 text-[#4CAF82]" />
+              <CheckIcon className="h-4 w-4 text-green-700" />
             </div>
             <p className="text-white">4 Users</p>
           </div>
           <div className="flex items-start gap-3">
             <div className="mt-1 bg-white p-1 rounded-full">
-              <CheckIcon className="h-4 w-4 text-[#4CAF82]" />
+              <CheckIcon className="h-4 w-4 text-green-700" />
             </div>
             <p className="text-white">All apps</p>
           </div>
           <div className="flex items-start gap-3">
             <div className="mt-1 bg-white p-1 rounded-full">
-              <CheckIcon className="h-4 w-4 text-[#4CAF82]" />
+              <CheckIcon className="h-4 w-4 text-green-700" />
             </div>
             <p className="text-white">Unlimited editable exports</p>
           </div>
           <div className="flex items-start gap-3">
             <div className="mt-1 bg-white p-1 rounded-full">
-              <CheckIcon className="h-4 w-4 text-[#4CAF82]" />
+              <CheckIcon className="h-4 w-4 text-green-700" />
             </div>
             <p className="text-white">Folders and collaboration</p>
           </div>
           <div className="flex items-start gap-3">
             <div className="mt-1 bg-white p-1 rounded-full">
-              <CheckIcon className="h-4 w-4 text-[#4CAF82]" />
+              <CheckIcon className="h-4 w-4 text-green-700" />
             </div>
             <p className="text-white">All incoming apps</p>
           </div>
         </div>
 
-        <button className="w-full bg-white text-[#4CAF82] py-3 rounded-full hover:bg-gray-100">
+        <button className="w-full bg-white text-green-700 py-3 rounded-full hover:bg-gray-100">
           Go to pro
         </button>
       </div>
@@ -203,7 +203,7 @@ function PlansSection({ plan }) {
           </div>
         </div>
 
-        <button className="w-full border border-[#4CAF82] text-[#4CAF82] py-3 rounded-full hover:bg-gray-50">
+        <button className="w-full border border-[#4CAF82] text-green-700 py-3 rounded-full hover:bg-gray-50">
           Go to Business
         </button>
       </div>

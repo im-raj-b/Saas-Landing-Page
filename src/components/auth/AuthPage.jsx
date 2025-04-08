@@ -14,7 +14,7 @@ const AuthPage = () => {
           <div className="text-center mb-8">
             <Link
               to="/"
-              className="text-3xl font-bold text-[#4CAF82] inline-block mb-2"
+              className="text-3xl font-bold text-green-700 inline-block mb-2"
             >
               Biccas
             </Link>
@@ -99,7 +99,7 @@ const AuthPage = () => {
                     <input
                       type="checkbox"
                       id="remember"
-                      className="h-4 w-4 text-[#4CAF82] focus:ring-[#4CAF82] border-gray-300 rounded"
+                      className="h-4 w-4 text-green-700 focus:ring-[#4CAF82] border-gray-300 rounded"
                     />
                     <label
                       htmlFor="remember"
@@ -110,7 +110,7 @@ const AuthPage = () => {
                   </div>
                   <Link
                     to="/"
-                    className="text-sm text-[#4CAF82] hover:underline"
+                    className="text-sm text-green-700 hover:underline"
                   >
                     Forgot password?
                   </Link>
@@ -249,7 +249,7 @@ const AuthPage = () => {
                   <input
                     type="checkbox"
                     id="terms"
-                    className="h-4 w-4 mt-1 text-[#4CAF82] focus:ring-[#4CAF82] border-gray-300 rounded"
+                    className="h-4 w-4 mt-1 text-green-700 focus:ring-[#4CAF82] border-gray-300 rounded"
                   />
                   <label
                     htmlFor="terms"
@@ -258,14 +258,14 @@ const AuthPage = () => {
                     I agree to the{" "}
                     <Link
                       to="/terms"
-                      className="text-[#4CAF82] hover:underline"
+                      className="text-green-700 hover:underline"
                     >
                       Terms of Service
                     </Link>{" "}
                     and{" "}
                     <Link
                       to="/privacy"
-                      className="text-[#4CAF82] hover:underline"
+                      className="text-green-700 hover:underline"
                     >
                       Privacy Policy
                     </Link>
@@ -310,7 +310,7 @@ const AuthPage = () => {
               <>
                 Don't have an account?{" "}
                 <button
-                  className="text-[#4CAF82] hover:underline font-medium"
+                  className="text-green-700 hover:underline font-medium"
                   onClick={() => setActiveTab("signup")}
                 >
                   Sign up
@@ -320,7 +320,7 @@ const AuthPage = () => {
               <>
                 Already have an account?{" "}
                 <button
-                  className="text-[#4CAF82] hover:underline font-medium"
+                  className="text-green-700 hover:underline font-medium"
                   onClick={() => setActiveTab("login")}
                 >
                   Login

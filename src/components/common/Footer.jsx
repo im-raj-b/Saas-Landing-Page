@@ -132,7 +132,7 @@ export default function Footer() {
             <div className="md:col-span-1">
               <Link
                 to="/"
-                className="text-3xl font-bold text-[#4CAF82] mb-4 inline-block"
+                className="text-3xl font-bold text-green-700 mb-4 inline-block"
               >
                 Biccas
               </Link>
