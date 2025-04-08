@@ -62,7 +62,10 @@ export default function Footer() {
                     </div>
                   ))}
                 </div>
-                <button className="w-12 h-12 ml-2 bg-[#1E2A45] rounded-full">
+                <button
+                  className="w-12 h-12 ml-2 bg-[#1E2A45] rounded-full"
+                  aria-label="play icon"
+                >
                   <PlayIcon />
                 </button>
               </div>
@@ -143,7 +146,11 @@ export default function Footer() {
                   placeholder="Enter your email here"
                   className="bg-transparent border border-gray-700 rounded-l-full py-2 px-4 flex-grow"
                 />
-                <button className="bg-[#4CAF82] p-2 rounded-full -ml-4">
+
+                <button
+                  className="bg-[#4CAF82] p-2 rounded-full -ml-4"
+                  aria-label="send button"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

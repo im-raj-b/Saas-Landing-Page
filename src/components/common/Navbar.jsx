@@ -90,30 +90,35 @@ export default function Navbar() {
               <button
                 onClick={() => handleMobileNavigation("/")}
                 className="text-black font-medium text-lg text-left"
+                aria-label="home"
               >
                 Home
               </button>
               <button
                 onClick={() => handleMobileNavigation("/pricing")}
                 className="text-gray-500 hover:text-black text-lg text-left"
+                aria-label="pricing"
               >
                 Pricing
               </button>
               <button
                 onClick={() => handleMobileNavigation("/")}
                 className="text-gray-500 hover:text-black text-lg text-left"
+                aria-label="faq"
               >
                 FAQ
               </button>
               <button
                 onClick={() => handleMobileNavigation("/")}
                 className="text-gray-500 hover:text-black text-lg text-left"
+                aria-label="blog"
               >
                 Blog
               </button>
               <button
                 onClick={() => handleMobileNavigation("/about")}
                 className="text-gray-500 hover:text-black text-lg text-left"
+                aria-label="about us"
               >
                 About Us
               </button>
@@ -121,12 +126,14 @@ export default function Navbar() {
                 <button
                   onClick={() => handleMobileNavigation("/login")}
                   className="text-gray-700 hover:text-black text-lg text-left"
+                  aria-label="login"
                 >
                   Login
                 </button>
                 <button
                   onClick={() => handleMobileNavigation("/login")}
                   className="bg-[#4CAF82] text-white px-6 py-3 rounded-full hover:bg-[#3d9c6c] text-center text-lg"
+                  aria-label="signup"
                 >
                   Sign Up
                 </button>
